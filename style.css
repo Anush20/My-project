@@ -1,0 +1,32 @@
+/*Universal*/
+*{
+    text-transform: uppercase;
+}
+/*main section*/
+#main{
+
+}
+/*class represent as.classname ,id as #idname*/
+
+.card{
+
+    width: 10px;
+    height: 10px;
+    text-align:center;
+    justify-content: space-around;
+    margin-top: 0;
+    margin: 0 auto;
+    border:1px solid grey;
+    
+    box-shadow: 6px 12px 12px 12px;
+}
+/*styles for image*/
+.card>img{
+    width: '50px';
+    height:'100px';
+    box-shadow: 6px -6px 6px -6px;
+   
+    margin-top: auto;
+    margin: 0 auto;
+    border-radius: 20% 0;
+}
